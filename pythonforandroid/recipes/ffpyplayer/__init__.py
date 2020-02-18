@@ -4,7 +4,7 @@ from os.path import join
 
 
 class FFPyPlayerRecipe(CythonRecipe):
-    version = 'c99913f2317bf3840eeacf1c1c3db3b3d1f78007'
+    version = 'b14c61094c7dc2062b353a4d097d8375be4b23ba'
     url = 'https://github.com/matham/ffpyplayer/archive/{version}.zip'
     depends = [('python2', 'python3'), 'sdl2', 'ffmpeg']
     opt_depends = ['openssl', 'ffpyplayer_codecs']
